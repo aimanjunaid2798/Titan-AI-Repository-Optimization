@@ -332,6 +332,8 @@ Titan/
 
 ├── examples/
 
+├── screenshots/
+
 ├── requirements.txt
 
 └── [[README.md](http://README.md)]([http://README.md](http://README.md))
@@ -389,6 +391,35 @@ python -m titan.main ../langchain
 ```
 
 Titan analyzes the target repository, builds repository knowledge, retrieves relevant engineering evidence, generates optimization recommendations, verifies them, and produces a Markdown engineering report.
+
+---
+
+## User Interface
+
+Titan includes a lightweight Streamlit interface that allows engineers to analyze repositories without using the command line. Users simply provide a local repository path, select an Ollama model, and Titan generates a comprehensive engineering optimization report.
+
+### Home Page
+
+The home page allows users to specify the repository path and the Ollama model before starting the analysis.
+
+![Titan Home](screenshots/homepage.png)
+
+---
+
+### Repository Analysis Report
+
+After the analysis is complete, Titan generates a detailed optimization report containing:
+
+- Executive Summary
+- Repository Statistics
+- Detected Frameworks and GPU Backends
+- AI Confidence & Verification Score
+- Prioritized Optimization Opportunities
+- Engineering Recommendations
+- Supporting Evidence
+- Implementation Roadmap
+
+![Titan Analysis Report](screenshots/analysis.png)
 
 ---
 
