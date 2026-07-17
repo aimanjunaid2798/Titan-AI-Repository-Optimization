@@ -402,7 +402,7 @@ Titan includes a lightweight Streamlit interface that allows engineers to analyz
 
 The home page allows users to specify the repository path and the Ollama model before starting the analysis.
 
-![Titan Home](screenshots/homepage.png)
+![Titan Home](screenshots/Homepage.png)
 
 ---
 
@@ -419,7 +419,7 @@ After the analysis is complete, Titan generates a detailed optimization report c
 - Supporting Evidence
 - Implementation Roadmap
 
-![Titan Analysis Report](screenshots/analysis.png)
+![Titan Analysis Report](screenshots/Analysis.png)
 
 ---
 
