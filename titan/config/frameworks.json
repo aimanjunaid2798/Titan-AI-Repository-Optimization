@@ -1,0 +1,74 @@
+{
+    "PyTorch": [
+        "import torch",
+        "from torch"
+    ],
+
+    "TensorFlow": [
+        "import tensorflow",
+        "from tensorflow"
+    ],
+
+    "Transformers": [
+        "import transformers",
+        "from transformers"
+    ],
+
+    "LangChain": [
+        "import langchain",
+        "from langchain"
+    ],
+
+    "LangGraph": [
+        "import langgraph",
+        "from langgraph"
+    ],
+
+    "LlamaIndex": [
+        "import llama_index",
+        "from llama_index"
+    ],
+
+    "FastAPI": [
+        "from fastapi",
+        "import fastapi"
+    ],
+
+    "Flask": [
+        "from flask",
+        "import flask"
+    ],
+
+    "Django": [
+        "from django",
+        "import django"
+    ],
+
+    "OpenAI": [
+        "from openai",
+        "import openai"
+    ],
+
+    "Anthropic": [
+        "from anthropic",
+        "import anthropic"
+    ],
+
+    "LiteLLM": [
+        "import litellm",
+        "from litellm"
+    ],
+
+    "vLLM": [
+        "import vllm",
+        "from vllm"
+    ],
+
+    "DeepSpeed": [
+        "import deepspeed"
+    ],
+
+    "Triton": [
+        "import triton"
+    ]
+}
