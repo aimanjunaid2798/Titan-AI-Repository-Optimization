@@ -1,0 +1,3 @@
+"""
+Titan configuration package.
+"""

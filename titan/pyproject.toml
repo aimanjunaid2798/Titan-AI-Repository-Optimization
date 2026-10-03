@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "titan-ai"
+version = "1.0.0"
+description = "AI Repository Optimization Platform"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Aiman Junaid" }
+]
+
+keywords = [
+    "AI",
+    "LLM",
+    "Repository Analysis",
+    "Python",
+    "Static Analysis",
+    "RAG"
+]
+
+dependencies = [
+    "pydantic>=2.11",
+    "requests>=2.32",
+    "rich>=13.9",
+    "typer>=0.16",
+    "python-dotenv>=1.1"
+]
+
+[project.scripts]
+titan = "titan.main:main"
+
+[tool.setuptools.packages.find]
+include = ["titan*"]

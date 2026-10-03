@@ -1,0 +1,34 @@
+{
+    "CUDA": [
+        "torch.cuda",
+        "cudaMalloc",
+        "cudaMemcpy",
+        "__global__",
+        "#include <cuda"
+    ],
+
+    "ROCm": [
+        "hipMalloc",
+        "hipMemcpy",
+        "#include <hip"
+    ],
+
+    "Triton": [
+        "import triton",
+        "@triton.jit"
+    ],
+
+    "TensorRT": [
+        "import tensorrt"
+    ],
+
+    "Mixed Precision": [
+        "torch.cuda.amp",
+        "autocast",
+        "GradScaler"
+    ],
+
+    "torch.compile": [
+        "torch.compile("
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Python": [
+        ".py"
+    ],
+
+    "CUDA": [
+        ".cu",
+        ".cuh"
+    ],
+
+    "C++": [
+        ".cpp",
+        ".cc",
+        ".hpp",
+        ".h"
+    ],
+
+    "C": [
+        ".c"
+    ],
+
+    "Rust": [
+        ".rs"
+    ],
+
+    "Go": [
+        ".go"
+    ],
+
+    "Java": [
+        ".java"
+    ],
+
+    "TypeScript": [
+        ".ts",
+        ".tsx"
+    ],
+
+    "JavaScript": [
+        ".js",
+        ".jsx"
+    ],
+
+    "Shell": [
+        ".sh"
+    ]
+}
